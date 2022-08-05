@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cb46f38.css",
+    "main.js": "/static/js/main.c951cfa0.js",
+    "static/media/error.png": "/static/media/error.906ec13f0f4ce4fcf868.png",
+    "static/media/brush-stroke.png": "/static/media/brush-stroke.cd2e6d4088417ed3b6d3.png",
+    "static/media/Quahon-9YanK.otf": "/static/media/Quahon-9YanK.3cae6c3d05ec3f4d646d.otf",
+    "static/media/spinner.gif": "/static/media/spinner.c7d9f0819b0870f9ad8e.gif",
+    "index.html": "/index.html",
+    "main.5cb46f38.css.map": "/static/css/main.5cb46f38.css.map",
+    "main.c951cfa0.js.map": "/static/js/main.c951cfa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cb46f38.css",
+    "static/js/main.c951cfa0.js"
+  ]
+}

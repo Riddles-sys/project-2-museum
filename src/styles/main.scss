@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Quahon';
+  src: url('./fonts/Quahon-9YanK.otf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(3, 71, 93);
+  text-align: center;
+  color: rgb(251, 242, 230);
+  font-family: 'Alegreya', serif;
+
+  main {
+    flex-grow: 1;
+    padding-top: 20px;
+  }
+}
+
+h1 {
+  padding: 20px;
+  font-family: 'Quahon', serif;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.btn {
+
+  background-color: rgb(78, 215, 219);
+  border: none;
+  color: #fff;
+  margin: 20px;
+  font-size: 1.3rem;
+
+  &:hover {
+    background-color: darken(rgb(49, 148, 34), 5%);
+  }
+}
+
+// Header
+
+
+.navbar {
+  background-color: rgb(78, 215, 219);
+  color: black;
+  font-size: 1.7rem;
+  font-family: 'Quahon', serif;
+  max-height: 5vh;
+  box-shadow: 1px 1px 4px 4px #222;
+
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+  font-family: 'Quahon', serif;
+
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  background-color: rgb(78, 215, 219);
+
+}
+
+// Home
+
+
+.hero {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rijksmuseum_Amsterdam_ca_1895_rotated.jpg/1200px-Rijksmuseum_Amsterdam_ca_1895_rotated.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h1 {
+    color: rgb(3, 71, 93);
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px bisque;
+    padding-top: 5px;
+  }
+}
+
+.homebtn {
+  margin-top: 52vh;
+  background-image: linear-gradient(rgba(78, 215, 219, 0.3), rgba(78, 215, 219, 0.3)), url(../images/brush-stroke.png);
+  padding: 20px 50px;
+  border: 2px solid rgb(3, 71, 93);
+  border-radius: 8px;
+  font-size: 1.7rem;
+
+  &:hover {
+    background-image: linear-gradient(rgba(51, 138, 141, 0.5), rgba(49, 129, 132, 0.5)), url(../images/brush-stroke.png);
+  }
+}
+
+
+// painting list
+
+
+.card {
+  height: 35vh;
+
+  img {
+    min-height: 75%; //I changed this to get all the pictures to cover the upper part of the card
+    max-height: 75%;
+    object-fit: cover;
+  }
+
+  background-color: rgb(236, 235, 226);
+  box-shadow: 1px 1px 2px 2px #222;
+}
+
+.card-body {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 4px;
+  text-align: center;
+}
+
+.card-title {
+  color: rgb(91, 48, 8);
+  font-size: 1.2rem;
+
+}
+
+// sculptures list
+
+.statue {
+  height: 45vh;
+
+  img {
+    min-height: 88%; //I changed this to get all the pictures to cover the upper part of the card
+    max-height: 88%;
+    object-fit: cover;
+  }
+}
+
+//ships list
+.ship {
+  height: 40vh;
+
+  img {
+    min-height: 85%; //I changed this to get all the pictures to cover the upper part of the card
+    max-height: 85%;
+    object-fit: cover;
+  }
+}
+
+
+// one item page
+
+
+.artist {
+  font-size: 1.45rem;
+}
+
+
+.singleImg {
+  max-width: 100%;
+  max-height: 90%;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  font-stretch: expanded;
+}
+
+//footer
+
+
+.footer {
+  background-color: rgb(3, 57, 74);
+  box-shadow: 1px 1px 2px 2px #222;
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  max-height: 5vh;
+  padding: 10px;
+  padding-top: 10px;
+
+  a {
+    text-decoration: none;
+    color: rgb(251, 242, 230);
+    font-family: 'Quahon', serif;
+    font-size: 1.2rem;
+  }
+}
