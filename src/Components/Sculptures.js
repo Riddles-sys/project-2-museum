@@ -52,7 +52,7 @@ const Sculptures = () => {
           </>
           :
           <h1>
-            {error ? <img src={errorImg} /> : <img src={spinnerImg}/> }
+            {error ? <img src={errorImg} alt='error img'/> : <img src={spinnerImg} alt='load img'/> }
           </h1>
         }
       </Row>

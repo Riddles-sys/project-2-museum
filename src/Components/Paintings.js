@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card, CardImg } from 'react-bootstrap'
+import { Container, Row, Col, Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
@@ -48,7 +48,7 @@ const Paintings = () => {
           </>
           :
           <h1>
-            {error ? <img src={errorImg} /> : <img src={spinnerImg} />}
+            {error ? <img src={errorImg} alt='error img'/> : <img src={spinnerImg} alt='load img'/>}
           </h1>
         }
       </Row>
