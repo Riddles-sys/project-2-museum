@@ -1,4 +1,4 @@
-# Description
+# Project 2 - Rijks Museum
 
 At the end of module 2, dedicated to the React web applications we were tasked with building a web application using a public API.
 
