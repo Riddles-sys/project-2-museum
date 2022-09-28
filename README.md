@@ -2,7 +2,7 @@
 
 At the end of module 2, dedicated to the React web applications we were tasked with building a web application using a public API.
 
-![](readme/project-2.gif)
+![](readme/p2.gif)
 ##### Preview
 
 ## Deployment link:
